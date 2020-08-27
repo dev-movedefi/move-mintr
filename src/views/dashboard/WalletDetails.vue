@@ -48,7 +48,7 @@
         </div>
         <div class="row balance-item-1">
           <div class="col">
-            <img class="balance-logo" :src="'/static/logo/icon.png'" alt=""/>
+            <img class="balance-logo" :src="'/static/logo/MOVE-icon.svg'" alt=""/>
             {{ $t("token.name") }}
           </div>
           <div class="col text-right">{{tokenBalance}}</div>
@@ -62,14 +62,14 @@
         </div>
         <div class="row balance-item-1">
           <div class="col">
-            <img class="balance-logo" :src="'/static/logo/icon.png'" alt=""/>
+            <img class="balance-logo" :src="'/static/logo/mUSD-icon.svg'" alt=""/>
             {{ $t("token.synthAsset") }}
           </div>
           <div class="col text-right">{{synBalance}}</div>
         </div>
         <div class="row balance-item-2">
           <div class="col">
-            <img class="balance-logo" :src="'/static/logo/icon.png'" alt=""/>
+            <img class="balance-logo" :src="'/static/logo/MOVE-icon.svg'" alt=""/>
             {{ $t("token.lockedToken") }}
           </div>
           <div class="col text-right">{{lockedTOKEN}}</div>

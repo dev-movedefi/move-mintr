@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7C3DFF;}
+	.st1{fill:#6029E3;}
+	.st2{fill:#FFC34D;}
+	.st3{fill:#FFE14D;}
+	.st4{fill:#FFFF99;}
+	.st5{fill:#FFBB33;}
+	.st6{fill:#E68A2E;}
+</style>
+<g id="XMLID_137_">
+	<g>
+		<g id="XMLID_1062_">
+			<g id="XMLID_1064_">
+				<g id="XMLID_1065_">
+					<g id="XMLID_1069_">
+						<g id="XMLID_1085_">
+							<g id="XMLID_1092_">
+								<g id="XMLID_1100_">
+									<g id="XMLID_1101_">
+										<g id="XMLID_1107_">
+											<g id="XMLID_1114_">
+												<g id="XMLID_1115_">
+													<g id="XMLID_1119_">
+														<g id="XMLID_1120_">
+															<circle id="XMLID_1121_" class="st0" cx="32" cy="32" r="32"/>
+														</g>
+													</g>
+												</g>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<path class="st1" d="M64,31.2L48.4,15.6L15.2,48.9L30.3,64c0.6,0,1.1,0,1.7,0c17.7,0,32-14.3,32-32C64,31.7,64,31.5,64,31.2z"/>
+<title>Mint</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<path class="st2" d="M48.7,15.7C44.2,11.2,38.3,8.8,32,8.8l-1.8,23.6L32,56c6.3,0,12.2-2.5,16.7-6.9c4.5-4.5,6.9-10.4,6.9-16.7
+		S53.2,20.2,48.7,15.7L48.7,15.7z"/>
+	<path class="st3" d="M15.3,15.7c-4.5,4.5-6.9,10.4-6.9,16.7s2.5,12.2,6.9,16.7C19.8,53.5,25.7,56,32,56V8.8
+		C25.7,8.8,19.8,11.2,15.3,15.7z"/>
+	<path class="st3" d="M32,14.3l-0.9,1.4l0.9,1.3c8.4,0,15.3,6.9,15.3,15.3S40.4,47.7,32,47.7l-0.9,1.4l0.9,1.4
+		c10,0,18.1-8.1,18.1-18.1S42,14.3,32,14.3z"/>
+	<path class="st4" d="M16.7,32.4c0-8.4,6.9-15.3,15.3-15.3v-2.8c-10,0-18.1,8.1-18.1,18.1S22,50.5,32,50.5v-2.8
+		C23.6,47.7,16.7,40.8,16.7,32.4z"/>
+</g>
+<g>
+	<g>
+		<g>
+			<path class="st5" d="M32,47.7c-8.4,0-15.3-6.9-15.3-15.3S23.6,17.1,32,17.1S47.3,24,47.3,32.4S40.4,47.7,32,47.7z"/>
+		</g>
+	</g>
+	<path class="st6" d="M47.3,32.4c0-8.4-6.8-15.3-15.3-15.3v30.6C40.4,47.7,47.3,40.8,47.3,32.4z"/>
+</g>
+</svg>

@@ -1,58 +1,60 @@
 module.exports = {
-  baseUrl: "/",
-  outputDir: "dist",
-  lintOnSave: true,
-  assetsDir: "static",
+	baseUrl: '/',
+	outputDir: 'dist',
+	lintOnSave: true,
+	assetsDir: 'static',
 
-  // use the full build with in-browser compiler?
+	// use the full build with in-browser compiler?
 
-  // https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
-  // runtimeCompiler: false,
+	// https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
+	// runtimeCompiler: false,
 
-  // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
-  chainWebpack: () => {},
+	// see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
+	chainWebpack: () => {},
 
-  configureWebpack: () => {},
+	configureWebpack: () => {},
 
-  // https://vue-loader.vuejs.org/en/options.html
-  // vueLoader: {},
+	// https://vue-loader.vuejs.org/en/options.html
+	// vueLoader: {},
 
-  productionSourceMap: true,
-  css: {
-    extract: true,
-    sourceMap: false,
-    loaderOptions: {},
-    modules: false
-  },
+	productionSourceMap: true,
+	css: {
+		extract: true,
+		sourceMap: false,
+		loaderOptions: {},
+		modules: false,
+	},
 
-  // use thread-loader for babel & TS in production build
+	// use thread-loader for babel & TS in production build
 
-  // enabled by default if the machine has more than 1 cores
-  parallel: require("os").cpus().length > 1,
+	// enabled by default if the machine has more than 1 cores
+	parallel: require('os').cpus().length > 1,
 
-  // See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#dll-mode
-  //dll: false,
+	// See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#dll-mode
+	//dll: false,
 
-  // see https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
-  pwa: {},
+	// see https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
+	pwa: {},
 
-  devServer: {
-    open: process.platform === "darwin",
+	devServer: {
+		open: process.platform === 'darwin',
 
-    host: "0.0.0.0",
+		disableHostCheck: true,
 
-    port: 8080,
+		host: '0.0.0.0',
 
-    https: false,
+		port: 8080,
 
-    hotOnly: false,
+		https: false,
 
-    proxy: null,
+		hotOnly: false,
 
-    before: app => {}
-  },
+		proxy: null,
 
-  pluginOptions: {
-    // ...
-  }
+		before: (app) => {},
+	},
+
+	pluginOptions: {
+		// ...
+	},
 };

@@ -3,7 +3,7 @@
     class="navbar navbar-expand-md navbar-dark container"
   >
     <router-link class="navbar-brand" :to="{ path: '/' }">
-      <img class="navbar-logo" :src="'/static/logo/top-nav-logo.png'" alt=""/>
+      <img class="navbar-logo" :src="'/static/logo/top-nav-logo.svg'" alt=""/>
     </router-link>
 
     <!-- Toggler/collapsibe Button -->
