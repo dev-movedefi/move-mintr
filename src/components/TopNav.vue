@@ -15,33 +15,6 @@
     <div class="collapse navbar-collapse"  id="myNavbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a
-            class="scroll-bottom"
-            :href="$t('links.telegram')" target="_blank"
-          >{{ $t("common.telegram") }}</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="scroll-bottom"
-            :href="$t('links.kakaoTalk')" target="_blank"
-          >{{ $t("common.kakaoTalk") }}</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="scroll-bottom"
-            :href="$t('links.twitter')" target="_blank"
-          >{{ $t("common.twitter") }}</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="scroll-bottom"
-            :href="$t('links.medium')" target="_blank"
-          >{{ $t("common.medium") }}</a
-          >
-        </li>
         <li class="nav-item">
           <a
             class="scroll-bottom"
@@ -62,7 +35,7 @@
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" @click="$i18n.locale = 'en'">EN</a>
-<!--            <a class="dropdown-item" @click="$i18n.locale = 'zh'">ZH</a>-->
+            <a class="dropdown-item" @click="$i18n.locale = 'zh'">ZH</a>
           </div>
         </li>
 
