@@ -1,3 +1,5 @@
+import ethWallet from "@/utils/chainOpt/ethWallet";
+
 let transactionResultGetter = function (resolve, err, data) {
   let result = null
   if(!err) {
@@ -29,10 +31,14 @@ async function onChainCall(contract, from, methodName, param, amount, gasLimit, 
     return null
   }
 
+  let web3Instance = ethWallet.getWeb3Instance()
+  let gPrice = await web3Instance.eth.getGasPrice()
+    .then(r=>{return r})
+
   let sendParam = {
     from: from,
-    gasPrice: gasPrice,
-    gas: gasLimit
+    gasPrice: gPrice * 1.2,
+    gas: 500000
   }
 
   if(method.prop.payable) {
